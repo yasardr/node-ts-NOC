@@ -10,4 +10,8 @@ El objetivo es crear una serie de tareas usando Arquitectura Limpia con TypeScri
     ```
     docker compose up -d
     ```
-5. Ejecutar el comando ```npm run dev```
+5. Levantar las bases de datos con el comando
+    ```
+    npx prisma migrate dev
+    ```
+6. Ejecutar el comando ```npm run dev```
